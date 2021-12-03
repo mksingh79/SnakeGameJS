@@ -1,0 +1,59 @@
+html, body{
+    margin: 10;
+    padding: 10;
+    text-align: center;
+}
+html{
+    background-image: url("/background.webp");
+    
+}
+.grid {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    border: solid 1px black;
+    margin-bottom: 20px;
+    background:green;
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    font-size:80px;
+    margin: 0;
+    color: limegreen;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+}
+#start{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold';
+}
+#pause{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold';
+}
+.square {
+    width: 20px;
+    height: 20px;
+}
+.snake::before{
+    content: "😶";
+}
+.snakeHead::before{
+    content: "🙂";
+}
+.snakeHeadSavour::before{
+    content: "😋";
+}
+
+.snakeDead::before{
+    content: "💀";
+}
+
+.apple::before{
+    content: "🍎";
+}
+
+
